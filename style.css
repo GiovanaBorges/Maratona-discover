@@ -18,7 +18,7 @@ html{
 }
 
 body{
-    background-color: #f0f2f5;
+    background-color: #222831;
     font-family: 'Raleway', sans-serif;
     
 
@@ -63,7 +63,11 @@ a{
 }
 
 a:hover{
-    color:var(--light-green);
+    color: white;
+}
+
+img:hover{
+    cursor: pointer;
 }
 
 button{
@@ -78,7 +82,7 @@ button{
 }
 
 .button:hover{
-    background-color : var(--light-green);
+    border-bottom: var(--light-green) 2px solid;
 }
 
 .button.new {
@@ -288,7 +292,7 @@ input{
     footer{
         text-align: center;
         padding: 4rem 0 2rem;
-        color : var(--dark-blue);
+        color : var(--light-green);
         opacity: 0.6;
     }
 
